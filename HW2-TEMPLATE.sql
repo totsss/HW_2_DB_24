@@ -3,9 +3,9 @@
 
 -- A. 447 different members attended at least one class on January 10th. How many different members attended at least one class on January 15th?
 -- Explanation: 
-select MID from attends where date="2023-01-15";
-inner join attends on class.--- ehhhh ekki klárað
-
+select MID from attends
+inner join Class on Class.MID=attends.MID--- ehhhh ekki klárað
+where Class.date="2023-01-15";
 
 -- B. 4 different class types require more than 20 light dumbbells. How many class types require more than 20 yoga mats?
 -- Explanation: 
