@@ -1,9 +1,10 @@
 -- HW2
--- Student names:
+-- Student names:Ísak, viktor Wardum, Þórður Jónatansson
 
 -- A. 447 different members attended at least one class on January 10th. How many different members attended at least one class on January 15th?
 -- Explanation: 
-
+select MID from attends where date="2023-01-15";
+inner join attends on class.--- ehhhh ekki klárað
 
 
 -- B. 4 different class types require more than 20 light dumbbells. How many class types require more than 20 yoga mats?
