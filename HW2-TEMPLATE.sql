@@ -45,11 +45,14 @@ WHERE avg(rating) >= 7 or avg(rating) < 7;
 
 -- F. Out of the members that have not quit, member with ID 6976 has been a customer for the shortest time. Out of the members that have not quit, return the ID of the member(s) that have been customer(s) for the longest time.
 -- Explanation: 
-
+select ID from member
+where member.quit_date is null and start_date<'2023-01-30'
+order by start_date;
 
 
 -- G. How many class types have at least one equipment that costs more than 100.000 and at least one other equipment that costs less than 5.000?
 -- Explanation: 
+select * from needs;
 
 
 
