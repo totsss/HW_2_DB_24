@@ -1,0 +1,70 @@
+ unique_members 
+----------------
+            405
+(1 row)
+
+ count 
+-------
+     6
+(1 row)
+
+  id  |          name          
+------+------------------------
+ 8644 | Skyrgamur Leppaludason
+(1 row)
+
+ count 
+-------
+    14
+(1 row)
+
+       name        | good_or_bad 
+-------------------+-------------
+ Infrared Hot Fit  | Good
+ Barre Burn        | Bad
+ Circuit Training  | Good
+ Kickboxing        | Bad
+ Body Combat       | Bad
+ Pilates           | Bad
+ HIIT              | Good
+ Foam & Flex       | Good
+ Zumba             | Bad
+ Spinning          | Good
+ Yoga              | Good
+ Trampoline Burn   | Good
+ Strength Training | Good
+ Dance Fitness     | Bad
+ Body Pump         | Good
+ Crossfit          | Bad
+ Rowing Class      | Bad
+ Running           | Bad
+ Step Aerobics     | Good
+ Hot Fit           | Bad
+(20 rows)
+
+  id  
+------
+ 5348
+ 8526
+(2 rows)
+
+ count 
+-------
+     1
+(1 row)
+
+ count 
+-------
+     0
+(1 row)
+
+ count 
+-------
+    97
+(1 row)
+
+  name   | maxpricepercappacity 
+---------+----------------------
+ Running |                16666
+(1 row)
+
